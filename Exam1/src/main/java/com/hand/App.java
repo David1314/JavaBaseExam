@@ -9,7 +9,7 @@ public class App
         int a[]=new int[100];
         for(int i=101;i<=200;i++){
             boolean flag=true;
-        	for(int j=2;j<Math.sqrt(i);j++){
+        	for(int j=2;j<=Math.sqrt(i);j++){
         		if(i%j==0){
         			flag=false;
         			break;
